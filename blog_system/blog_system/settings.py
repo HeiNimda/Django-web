@@ -26,7 +26,11 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '!oz32h^we+745a*+aalyp*+qfeq#)*q05tobbn!s#^@%qq+el!'
+
+#--------------------------------********************---------------------------------
+#TAKE     A      HEED
+SECRET_KEY = '************************'    #you must use your own SECRET_KEY
+#--------------------------------********************---------------------------------
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -89,11 +93,11 @@ WSGI_APPLICATION = 'blog_system.wsgi.application'
 
 DATABASES = {
     'default': {
-        #mysql 密码 p_swTKZRu45k 账号 root
+        #mysql
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blog_system',
-        'USER':'root',
-        'PASSWORD':'password',
+        'USER':'xxxx',      #your mysql username
+        'PASSWORD':'xxxxxxx',  #your mysql password
         'HOST':'localhost',
         'PORT':'3306',
     }
@@ -138,8 +142,8 @@ SITE_DESC = '青葱岁月,时光荏苒。'
 SITE_FOOTER = '内ICP备11111111号-2'
 NICK_NAME = '听说'
 MY_WORK = '系统运维'
-MY_HOMETOWN = '内蒙古自治区'
-MY_EMAIL = '2251001349@qq.com'
+MY_HOMETOWN = '北京'
+MY_EMAIL = 'XXXXX@qq.com'
 
 
 
