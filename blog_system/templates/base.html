@@ -1,0 +1,121 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{ SITE_NAME }}</title>
+<meta name="keywords" content="个人博客,青葱岁月个人博客,博客,青葱岁月" />
+<meta name="description" content={{ SITE_DESC }} />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href={% static "css/base.css" %} rel="stylesheet">
+<link href={% static "css/index.css" %} rel="stylesheet">
+<link href={% static "css/m.css" %} rel="stylesheet">
+{% block costum_css %}{% endblock %}
+<!--[if lt IE 9]>
+<script src={% static "js/modernizr.js" %}></script>
+<![endif]-->
+<script src={% static "js/page.js"%}></script>
+{% block costum_js %}{% endblock %}
+</head>
+<body>
+<header>
+  <div id="mnav">
+    <div class="logo"><a href="/">{{ SITE_NAME }}</a></div>
+    <h2 id="mnavh"><span class="navicon"></span></h2>
+    <ul id="starlist">
+      <li><a href="base.html">网站首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="share.html">模板分享</a></li>
+      <li><a href="list.html">学无止境</a></li>
+      <li><a href="info.html">慢生活</a></li>
+      <li><a href="shareinfo.html">模板内容页</a></li>
+      <li><a href="gbook.html">留言</a></li>
+    </ul>
+  </div>
+  <script>
+window.onload = function ()
+{
+	var oH2 = document.getElementById("mnavh"); 
+	var oUl = document.getElementById("starlist");  
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script> 
+</header>
+<div class="line46"></div>
+<article>
+  <div class="pics">
+    <ul>
+      <li><i><a href="/"><img src={% static "images/t01.jpg"%}></a></i><span>这组图片中的静物等非常的日系</span></li>
+      <li><i><a href="/"><img src={% static "images/t04.jpg"%}></a></i><span>这组图片中的静物等非常的日系</span></li>
+      <li><i><a href="/"><img src={% static "images/t03.jpg"%}></a></i><span>这组图片中的静物等非常的日系</span></li>
+    </ul>
+  </div>
+  <div class="blank"></div>
+  {% block left_box %}{% endblock %}
+  <div class="rightbox">
+    <div class="aboutme">
+      <h2 class="ab_title">关于我</h2>
+      <div class="avatar"><img src={% static "images/b04.jpg"%} /></div>
+      <div class="ab_con">
+        <p>网名：{{ NICK_NAME }}</p>
+        <p>职业：{{ MY_WORK }} </p>
+        <p>籍贯：{{ MY_HOMETOWN }}</p>
+        <p>邮箱：{{ MY_EMAIL }}</p>
+      </div>
+    </div>
+    <div class="blank"></div>
+    <div class="search">
+      <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+        <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+        <input name="show" value="title" type="hidden">
+        <input name="tempid" value="1" type="hidden">
+        <input name="tbname" value="news" type="hidden">
+        <input name="Submit" class="input_submit" value="搜索" type="submit">
+      </form>
+    </div>
+    <div class="paihang">
+      <h2 class="ab_title"><a href="/">点击排行</a></h2>
+      <ul>
+        <li><b><a href="/jstt/css3/2018-03-20/808.html" target="_blank">十条设计原则教你学会如何设计网页布局!...</a></b>
+          <p><i><img src={% static "images/b01.png"%}></i>网页常见的布局有很多种,单列布局,多列布局.其中单列布局是国外很多网站比较常用的.咱们很多站长以及门户...</p>
+        </li>
+        <li><b><a href="/" target="_blank">教你怎样用欠费手机拨打电话</a></b>
+          <p><i><img src={% static "images/b02.jpg"%}></i>对于刚毕业的学生来说，想学习建网站，掌握一技之长，最简单的入门...</p>
+        </li>
+        <li><b><a href="/" target="_blank">原来以为，一个人的勇敢是，删掉他的手机号码</a></b>
+          <p><i><img src={% static "images/b03.jpg"%}></i>先前发表过一篇文章《如果要学习web前端开发，需要学习什么？》</p>
+        </li>
+        <li><b><a href="/" target="_blank">手机的16个惊人小秘密，据说99.999%的人都不知</a></b>
+          <p><i><img src={% static "images/b04.jpg"%}></i>对于刚毕业的学生来说，.需要学习什么？》</p>
+        </li>
+        <li><b><a href="/" target="_blank">你面对的是生活而不是手机</a></b>
+          <p><i><img src={% static "images/b05.jpg"%}></i>最简单的入门无非就是学会html和css，先前发表过一篇文章...</p>
+        </li>
+      </ul>
+    </div>
+    <div class="links">
+      <h2 class="ab_title">友情链接</h2>
+      <ul>
+        <li><a href="/">杨青个人博客</a></li>
+        <li><a href="/">个人博客模板</a></li>
+        <li><a href="/">优秀个人博客</a></li>
+      </ul>
+    </div>
+    <div class="weixin">
+      <h2 class="ab_title">微信关注</h2>
+      <ul>
+        <img src={% static "images/wx.jpg"%}>
+      </ul>
+    </div>
+  </div>
+</article>
+<footer>
+  <p>Design by <a href="/">{{ NICK_NAME }}</a> <a href="/">{{ SITE_FOOTER }}</a></p>
+</footer>
+</body>
+</html>

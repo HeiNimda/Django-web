@@ -1,0 +1,1058 @@
+INFO 2019-10-31 16:54:33,555 basehttp 154 "GET / HTTP/1.1" 200 12989
+INFO 2019-10-31 16:58:04,372 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-07 11:40:13,035 log 228 Not Found: /favicon.ico
+WARNING 2019-11-07 11:40:13,037 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2093
+INFO 2019-11-07 11:40:15,135 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2019-11-07 11:40:15,173 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2019-11-07 11:40:15,375 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2019-11-07 11:40:15,450 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2019-11-07 11:40:15,488 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2019-11-07 11:40:15,502 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2019-11-07 11:40:15,516 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-11-07 11:40:15,550 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2019-11-07 11:40:15,566 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+WARNING 2019-11-07 11:40:15,790 log 228 Not Found: /favicon.ico
+WARNING 2019-11-07 11:40:15,793 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2093
+INFO 2019-11-07 11:40:20,041 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2019-11-07 11:40:20,133 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 11:40:20,147 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2019-11-07 11:40:20,157 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2019-11-07 11:40:20,161 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2019-11-07 11:40:20,162 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-11-07 11:40:39,621 basehttp 154 "GET /admin/blog/category/add/ HTTP/1.1" 200 4483
+INFO 2019-11-07 11:40:39,643 basehttp 154 "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+INFO 2019-11-07 11:40:39,661 basehttp 154 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+INFO 2019-11-07 11:40:39,668 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 11:40:39,672 basehttp 154 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2019-11-07 11:40:39,684 basehttp 154 "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+INFO 2019-11-07 11:40:39,684 basehttp 154 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2019-11-07 11:40:39,691 basehttp 154 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+INFO 2019-11-07 11:40:39,703 basehttp 154 "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+INFO 2019-11-07 11:40:39,711 basehttp 154 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2019-11-07 11:40:39,717 basehttp 154 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2019-11-07 11:40:39,765 basehttp 154 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2019-11-07 11:40:39,766 basehttp 154 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2019-11-07 11:40:39,785 basehttp 154 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2019-11-07 11:40:49,339 basehttp 154 "GET /admin/blog/ HTTP/1.1" 200 4961
+INFO 2019-11-07 11:40:50,479 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 11:41:00,418 basehttp 154 "GET /admin/blog/comment/ HTTP/1.1" 200 3170
+INFO 2019-11-07 11:41:00,443 basehttp 154 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2019-11-07 11:41:00,444 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 11:41:00,541 basehttp 154 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2019-11-07 11:41:03,912 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 11:41:08,979 basehttp 154 "GET / HTTP/1.1" 200 12971
+INFO 2019-11-07 11:41:09,024 basehttp 154 "GET /static/css/base.css HTTP/1.1" 200 2151
+INFO 2019-11-07 11:41:09,046 basehttp 154 "GET /static/css/m.css HTTP/1.1" 200 2582
+INFO 2019-11-07 11:41:09,058 basehttp 154 "GET /static/js/page.js HTTP/1.1" 200 2602
+INFO 2019-11-07 11:41:09,103 basehttp 154 "GET /static/css/index.css HTTP/1.1" 200 13848
+INFO 2019-11-07 11:41:09,278 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 200 287
+INFO 2019-11-07 11:41:09,319 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 200 82526
+INFO 2019-11-07 11:41:09,331 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 200 36009
+INFO 2019-11-07 11:41:09,338 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 200 174118
+INFO 2019-11-07 11:41:09,344 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 200 19422
+INFO 2019-11-07 11:41:09,345 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 200 68221
+INFO 2019-11-07 11:41:09,350 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 200 7500
+INFO 2019-11-07 11:41:09,352 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 200 11100
+INFO 2019-11-07 11:41:09,354 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 200 7629
+INFO 2019-11-07 11:41:09,356 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 200 35170
+INFO 2019-11-07 11:41:09,360 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 200 21780
+INFO 2019-11-07 11:41:09,371 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 200 17515
+INFO 2019-11-07 11:41:09,537 basehttp 154 "GET /static/images/newsbg02.png HTTP/1.1" 200 1418
+INFO 2019-11-07 11:41:09,538 basehttp 154 "GET /static/images/newsbg01.png HTTP/1.1" 200 1243
+INFO 2019-11-07 11:41:09,540 basehttp 154 "GET /static/images/newsbg04.png HTTP/1.1" 200 1298
+INFO 2019-11-07 11:41:09,543 basehttp 154 "GET /static/images/like.jpg HTTP/1.1" 200 1430
+INFO 2019-11-07 13:13:08,411 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:13:11,992 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:13:15,087 basehttp 154 "GET /admin/blog/article/add/ HTTP/1.1" 200 9450
+INFO 2019-11-07 13:13:15,112 basehttp 154 "GET /static/ueditor/ueditor.config.js HTTP/1.1" 200 19826
+INFO 2019-11-07 13:13:15,118 basehttp 154 "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 200 367806
+INFO 2019-11-07 13:13:15,129 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:13:15,250 basehttp 154 "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 200 30020
+INFO 2019-11-07 13:13:15,251 basehttp 154 "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 200 43760
+WARNING 2019-11-07 13:13:15,317 log 228 Not Found: /ueditor/controller/
+WARNING 2019-11-07 13:13:15,320 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573103595295 HTTP/1.1" 404 2353
+INFO 2019-11-07 13:13:15,467 basehttp 154 "GET /static/ueditor/themes/default/images/icons.png HTTP/1.1" 200 19694
+INFO 2019-11-07 13:13:15,477 basehttp 154 "GET /static/ueditor/themes/default/images/charts.png HTTP/1.1" 200 518
+INFO 2019-11-07 13:13:15,478 basehttp 154 "GET /static/ueditor/themes/default/images/scale.png HTTP/1.1" 200 167
+INFO 2019-11-07 13:13:15,487 basehttp 154 "GET /static/ueditor/themes/iframe.css HTTP/1.1" 200 41
+INFO 2019-11-07 13:13:15,566 basehttp 154 "GET /static/ueditor/third-party/codemirror/codemirror.css HTTP/1.1" 200 2888
+INFO 2019-11-07 13:13:15,569 basehttp 154 "GET /static/ueditor/third-party/codemirror/codemirror.js HTTP/1.1" 200 158605
+INFO 2019-11-07 13:13:15,594 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.js HTTP/1.1" 200 43216
+INFO 2019-11-07 13:13:15,640 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573103595607 HTTP/1.1" 200 3933
+INFO 2019-11-07 13:13:34,486 basehttp 154 "GET /static/ueditor/themes/default/images/icons-all.gif HTTP/1.1" 200 3750
+INFO 2019-11-07 13:13:34,487 basehttp 154 "GET /static/ueditor/themes/default/images/dialog-title-bg.png HTTP/1.1" 200 938
+INFO 2019-11-07 13:13:34,497 basehttp 154 "GET /static/ueditor/dialogs/image/image.html HTTP/1.1" 200 5608
+INFO 2019-11-07 13:13:34,543 basehttp 154 "GET /static/ueditor/dialogs/internal.js HTTP/1.1" 200 2682
+INFO 2019-11-07 13:13:34,545 basehttp 154 "GET /static/ueditor/third-party/webuploader/webuploader.min.js HTTP/1.1" 200 58276
+INFO 2019-11-07 13:13:34,545 basehttp 154 "GET /static/ueditor/third-party/jquery-1.10.2.min.js HTTP/1.1" 200 93107
+INFO 2019-11-07 13:13:34,563 basehttp 154 "GET /static/ueditor/third-party/webuploader/webuploader.css HTTP/1.1" 200 515
+INFO 2019-11-07 13:13:34,571 basehttp 154 "GET /static/ueditor/dialogs/image/image.css HTTP/1.1" 200 19026
+INFO 2019-11-07 13:13:34,586 basehttp 154 "GET /static/ueditor/dialogs/image/image.js HTTP/1.1" 200 128869
+INFO 2019-11-07 13:13:34,690 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.05778950487475498 HTTP/1.1" 200 1685
+INFO 2019-11-07 13:13:34,773 basehttp 154 "GET /static/ueditor/dialogs/image/images/image.png HTTP/1.1" 200 1672
+INFO 2019-11-07 13:13:34,773 basehttp 154 "GET /static/ueditor/dialogs/image/images/alignicon.jpg HTTP/1.1" 200 16101
+INFO 2019-11-07 13:40:52,960 basehttp 154 "GET /admin/blog/article/add/ HTTP/1.1" 200 9450
+INFO 2019-11-07 13:40:52,996 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2019-11-07 13:40:53,208 log 228 Not Found: /ueditor/controller/
+WARNING 2019-11-07 13:40:53,209 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573105253199 HTTP/1.1" 404 2480
+INFO 2019-11-07 13:40:53,423 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573105253396 HTTP/1.1" 200 3933
+INFO 2019-11-07 13:41:10,770 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.14041600717376967 HTTP/1.1" 200 1685
+INFO 2019-11-07 13:41:12,672 basehttp 154 "GET /static/ueditor/themes/default/images/lock.gif HTTP/1.1" 200 1062
+WARNING 2019-11-07 13:41:14,915 log 228 Not Found: /ueditor/controller/
+WARNING 2019-11-07 13:41:14,916 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=&start=0&noCache=1573105274908 HTTP/1.1" 404 2481
+WARNING 2019-11-07 13:41:16,539 log 228 Not Found: /ueditor/controller/
+WARNING 2019-11-07 13:41:16,542 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=&start=0&noCache=1573105276531 HTTP/1.1" 404 2481
+INFO 2019-11-07 13:46:48,666 basehttp 154 "GET /admin/blog/article/add/ HTTP/1.1" 200 9450
+INFO 2019-11-07 13:46:48,717 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2019-11-07 13:46:48,866 log 228 Not Found: /ueditor/controller/
+WARNING 2019-11-07 13:46:48,868 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573105608860 HTTP/1.1" 404 2481
+INFO 2019-11-07 13:46:49,105 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573105609084 HTTP/1.1" 200 3933
+INFO 2019-11-07 13:46:58,166 basehttp 154 "GET /admin/blog/tag/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3035
+INFO 2019-11-07 13:46:58,196 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:52:06,616 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.11381256110176685 HTTP/1.1" 200 1685
+INFO 2019-11-07 13:54:29,972 basehttp 154 "GET /admin/blog/article/add/ HTTP/1.1" 200 9450
+INFO 2019-11-07 13:54:30,012 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:54:30,139 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573106070137 HTTP/1.1" 200 2171
+INFO 2019-11-07 13:54:30,453 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573106070427 HTTP/1.1" 200 3933
+INFO 2019-11-07 13:54:37,107 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.869440923728674 HTTP/1.1" 200 1685
+INFO 2019-11-07 13:54:41,977 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=listimage&start=0&size=30&noCache=1573106081973 HTTP/1.1" 200 97
+INFO 2019-11-07 13:54:49,223 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:54:52,802 basehttp 154 "GET /admin/blog/ad/add/ HTTP/1.1" 200 5978
+INFO 2019-11-07 13:54:52,826 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:54:58,957 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:55:01,342 basehttp 154 "GET /admin/blog/comment/add/ HTTP/1.1" 200 8588
+INFO 2019-11-07 13:55:01,361 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:55:05,152 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:55:07,585 basehttp 154 "GET /admin/blog/category/add/ HTTP/1.1" 200 4483
+INFO 2019-11-07 13:55:07,606 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:55:09,120 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:55:11,318 basehttp 154 "GET /admin/blog/links/add/ HTTP/1.1" 200 5527
+INFO 2019-11-07 13:55:11,338 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:55:13,037 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:55:15,354 basehttp 154 "GET /admin/blog/tag/add/ HTTP/1.1" 200 3974
+INFO 2019-11-07 13:55:15,375 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:55:16,728 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:55:19,089 basehttp 154 "GET /admin/blog/user/add/ HTTP/1.1" 200 16098
+INFO 2019-11-07 13:55:19,116 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:55:19,149 basehttp 154 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20281
+INFO 2019-11-07 13:55:19,164 basehttp 154 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2019-11-07 13:55:19,264 basehttp 154 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2019-11-07 13:55:19,281 basehttp 154 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2019-11-07 13:55:22,911 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:56:46,541 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:56:49,236 basehttp 154 "GET /admin/ HTTP/1.1" 200 5799
+INFO 2019-11-07 13:56:50,740 basehttp 154 "GET /admin/blog/comment/add/ HTTP/1.1" 200 9063
+INFO 2019-11-07 13:56:50,765 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 13:56:50,857 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573106210853 HTTP/1.1" 200 2171
+INFO 2019-11-07 13:56:51,154 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573106211126 HTTP/1.1" 200 3933
+INFO 2019-11-07 13:57:02,322 basehttp 154 "GET /static/ueditor/dialogs/emotion/emotion.html HTTP/1.1" 200 5704
+INFO 2019-11-07 13:57:02,339 basehttp 154 "GET /static/ueditor/dialogs/emotion/emotion.css HTTP/1.1" 200 1842
+INFO 2019-11-07 13:57:02,347 basehttp 154 "GET /static/ueditor/dialogs/emotion/emotion.js HTTP/1.1" 200 6480
+INFO 2019-11-07 13:57:02,349 basehttp 154 "GET /static/ueditor/themes/default/images/spacer.gif HTTP/1.1" 200 43
+INFO 2019-11-07 13:57:02,351 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.6266092998332622 HTTP/1.1" 200 1685
+INFO 2019-11-07 13:57:02,421 basehttp 154 "GET /static/ueditor/dialogs/emotion/images/jxface2.gif?v=1.1 HTTP/1.1" 200 40706
+INFO 2019-11-07 14:45:12,037 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2019-11-07 14:45:12,095 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+WARNING 2019-11-07 14:45:19,565 log 228 Not Found: /favicon.ico
+WARNING 2019-11-07 14:45:19,567 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2437
+INFO 2019-11-07 14:45:20,970 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-11-07 14:45:20,981 basehttp 154 "GET /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-07 14:45:21,002 basehttp 154 "GET /admin/login/?next=/xadmin/ HTTP/1.1" 200 1823
+INFO 2019-11-07 14:45:23,410 basehttp 154 "GET /admin/login/?next=/xadmin/ HTTP/1.1" 200 1823
+INFO 2019-11-07 14:46:32,692 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4151
+INFO 2019-11-07 14:46:32,731 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-11-07 14:46:32,812 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-11-07 14:46:32,813 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-11-07 14:46:32,842 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-11-07 14:46:32,842 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-11-07 14:46:32,862 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4158
+INFO 2019-11-07 14:46:32,890 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-11-07 14:46:32,938 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-11-07 14:46:32,959 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-11-07 14:46:32,988 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-11-07 14:46:32,988 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-11-07 14:46:32,990 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-11-07 14:46:33,069 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-11-07 14:46:33,072 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-11-07 14:46:33,091 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-11-07 14:46:33,207 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-11-07 15:07:25,572 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4151
+INFO 2019-11-07 15:07:25,612 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4158
+INFO 2019-11-07 15:07:34,521 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-07 15:07:34,745 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 15:07:34,786 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-11-07 15:07:34,788 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:07:34,789 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-11-07 15:07:34,796 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-11-07 15:07:42,697 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 15:07:42,732 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-11-07 15:07:42,750 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-11-07 15:07:42,758 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-11-07 15:07:42,764 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:07:42,766 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-11-07 15:07:42,776 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-11-07 15:07:42,802 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-11-07 15:07:45,938 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18493
+INFO 2019-11-07 15:07:45,988 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-11-07 15:07:45,988 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:07:45,999 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 200 694
+INFO 2019-11-07 15:07:46,000 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2019-11-07 15:07:46,002 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-11-07 15:07:46,005 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-11-07 15:07:46,019 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-11-07 15:07:46,029 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2019-11-07 15:07:46,205 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2019-11-07 15:08:10,995 basehttp 154 "GET /xadmin/auth/group/ HTTP/1.1" 200 21711
+INFO 2019-11-07 15:08:11,122 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:08:18,735 basehttp 154 "GET /xadmin/blog/user/ HTTP/1.1" 200 27186
+INFO 2019-11-07 15:08:18,793 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-11-07 15:08:18,798 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:08:22,278 basehttp 154 "GET /xadmin/blog/ad/ HTTP/1.1" 200 21986
+INFO 2019-11-07 15:08:22,371 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:08:23,461 basehttp 154 "GET /xadmin/blog/user/ HTTP/1.1" 200 27186
+INFO 2019-11-07 15:08:23,493 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:08:44,879 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 15:08:44,907 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2019-11-07 15:08:49,445 log 228 Internal Server Error: /xadmin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 154, in _get_response
+    response = response.render()
+  File "d:\python3.6.1\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "d:\python3.6.1\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 199, in render
+    c = self.get_render(context).flatten()
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 118, in get_render
+    actual_form.form_html = helper.render_layout(actual_form, node_context, template_pack=self.template_pack)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\helper.py", line 309, in render_layout
+    template_pack=template_pack
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 140, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 287, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 147, in render_field
+    html = template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py", line 156, in render
+    return str(field)
+  File "d:\python3.6.1\lib\site-packages\django\utils\html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "d:\python3.6.1\lib\site-packages\django\forms\boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "d:\python3.6.1\lib\site-packages\django\forms\boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2019-11-07 15:08:49,460 basehttp 154 "GET /xadmin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/xadmin/ HTTP/1.1" 500 701408
+INFO 2019-11-07 15:08:55,173 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 15:09:00,871 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 15:09:00,899 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:09:05,287 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 15:09:05,310 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:09:14,667 basehttp 154 "GET /xadmin/auth/permission/ HTTP/1.1" 200 87250
+INFO 2019-11-07 15:09:14,695 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 15:09:25,776 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 15:09:25,799 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:11:29,485 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 16:11:29,532 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:11:43,547 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 16:11:43,580 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:11:45,265 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18654
+INFO 2019-11-07 16:11:45,288 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:11:50,580 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18654
+INFO 2019-11-07 16:11:50,617 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:11:53,930 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 16:11:53,953 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:11:55,683 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18654
+INFO 2019-11-07 16:11:55,734 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:39:59,505 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 16:39:59,541 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:39:59,553 basehttp 154 "GET /static/ueditor/ueditor.all.js HTTP/1.1" 200 1111191
+INFO 2019-11-07 16:40:04,540 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 16:40:04,582 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:40:06,544 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 16:40:06,565 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:54:23,946 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 16:54:24,025 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:54:25,834 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 16:54:25,860 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:54:27,078 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 16:54:27,107 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:54:28,758 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 16:54:28,782 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:55:17,562 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 16:55:17,586 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:55:26,014 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 16:55:26,036 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:55:34,844 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 16:55:34,870 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:55:45,066 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 26116
+INFO 2019-11-07 16:55:45,096 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2019-11-07 16:55:45,122 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2019-11-07 16:55:45,136 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:55:45,145 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2019-11-07 16:55:50,032 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 26931
+INFO 2019-11-07 16:55:50,057 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:55:57,540 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 16:55:57,570 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:55:58,831 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 16:55:58,878 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 16:56:01,677 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 16:56:01,700 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:02:19,274 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:02:19,306 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:02:20,965 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 17:02:20,988 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:02:22,176 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 17:02:22,205 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:02:32,032 basehttp 154 "GET /xadmin/blog/ad/ HTTP/1.1" 200 21986
+INFO 2019-11-07 17:02:32,059 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:02:34,664 basehttp 154 "GET /xadmin/blog/comment/ HTTP/1.1" 200 22207
+INFO 2019-11-07 17:02:34,689 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:02:35,703 basehttp 154 "GET /xadmin/blog/comment/add/ HTTP/1.1" 200 18162
+INFO 2019-11-07 17:02:35,730 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:02:38,793 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:02:38,818 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:04:15,602 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 17:04:15,633 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:04:16,741 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 17:04:16,772 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:04:20,051 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:04:20,078 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:09:20,183 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:09:20,212 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:09:21,173 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 17:09:21,198 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:09:22,001 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 17:09:22,031 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:09:24,647 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:09:24,672 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:12:30,972 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 17:12:30,997 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:12:31,914 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18650
+INFO 2019-11-07 17:12:31,940 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:12:33,760 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:12:33,784 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:27:06,511 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:27:06,544 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:27:07,866 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-07 17:27:07,902 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:27:08,902 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18126
+INFO 2019-11-07 17:27:08,946 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:27:09,084 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573118829079 HTTP/1.1" 200 2171
+INFO 2019-11-07 17:27:09,405 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573118829355 HTTP/1.1" 200 3933
+INFO 2019-11-07 17:27:46,264 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.063329771507459 HTTP/1.1" 200 1685
+INFO 2019-11-07 17:28:57,348 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:28:57,396 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:29:00,980 basehttp 154 "GET /xadmin/blog/category/ HTTP/1.1" 200 21473
+INFO 2019-11-07 17:29:01,006 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:29:02,113 basehttp 154 "GET /xadmin/blog/comment/ HTTP/1.1" 200 22207
+INFO 2019-11-07 17:29:02,132 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:29:03,829 basehttp 154 "GET /xadmin/blog/comment/add/ HTTP/1.1" 200 17638
+INFO 2019-11-07 17:29:03,850 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-07 17:29:04,022 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573118944016 HTTP/1.1" 200 2171
+INFO 2019-11-07 17:29:04,269 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573118944247 HTTP/1.1" 200 3933
+INFO 2019-11-07 17:30:08,442 basehttp 154 "GET /static/ueditor/dialogs/template/template.html HTTP/1.1" 200 922
+INFO 2019-11-07 17:30:08,471 basehttp 154 "GET /static/ueditor/dialogs/template/template.css HTTP/1.1" 200 1047
+INFO 2019-11-07 17:30:08,482 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.3999960613207838 HTTP/1.1" 200 1685
+INFO 2019-11-07 17:30:08,503 basehttp 154 "GET /static/ueditor/dialogs/template/template.js HTTP/1.1" 200 1644
+INFO 2019-11-07 17:30:08,526 basehttp 154 "GET /static/ueditor/dialogs/template/config.js HTTP/1.1" 200 12524
+INFO 2019-11-07 17:30:08,562 basehttp 154 "GET /static/ueditor/dialogs/template/images/pre0.png HTTP/1.1" 200 250
+INFO 2019-11-07 17:30:08,563 basehttp 154 "GET /static/ueditor/dialogs/template/images/pre1.png HTTP/1.1" 200 291
+INFO 2019-11-07 17:30:08,563 basehttp 154 "GET /static/ueditor/dialogs/template/images/pre2.png HTTP/1.1" 200 394
+INFO 2019-11-07 17:30:08,564 basehttp 154 "GET /static/ueditor/dialogs/template/images/pre3.png HTTP/1.1" 200 485
+INFO 2019-11-07 17:30:08,565 basehttp 154 "GET /static/ueditor/dialogs/template/images/pre4.png HTTP/1.1" 200 393
+INFO 2019-11-07 17:30:40,408 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-07 17:30:40,454 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2019-11-07 17:30:47,927 log 228 Internal Server Error: /xadmin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 154, in _get_response
+    response = response.render()
+  File "d:\python3.6.1\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "d:\python3.6.1\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 199, in render
+    c = self.get_render(context).flatten()
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 118, in get_render
+    actual_form.form_html = helper.render_layout(actual_form, node_context, template_pack=self.template_pack)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\helper.py", line 309, in render_layout
+    template_pack=template_pack
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 140, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 287, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 147, in render_field
+    html = template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py", line 156, in render
+    return str(field)
+  File "d:\python3.6.1\lib\site-packages\django\utils\html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "d:\python3.6.1\lib\site-packages\django\forms\boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "d:\python3.6.1\lib\site-packages\django\forms\boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2019-11-07 17:30:47,942 basehttp 154 "GET /xadmin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/xadmin/ HTTP/1.1" 500 701665
+INFO 2019-11-07 17:30:50,437 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-08 10:37:21,934 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-08 10:37:22,186 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:37:22,187 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:37:22,190 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+WARNING 2019-11-08 10:37:22,347 basehttp 154 "GET /static/js/page.js HTTP/1.1" 404 1654
+WARNING 2019-11-08 10:37:22,496 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 404 1657
+WARNING 2019-11-08 10:37:22,675 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:22,678 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:22,679 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:22,681 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:22,684 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:22,804 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:23,183 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:23,184 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:23,294 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:23,294 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:23,295 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:37:23,607 log 228 Not Found: /favicon.ico
+WARNING 2019-11-08 10:37:23,609 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2330
+INFO 2019-11-08 10:37:32,553 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-11-08 10:37:32,754 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4151
+INFO 2019-11-08 10:37:32,785 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-11-08 10:37:33,121 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-11-08 10:37:33,122 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-11-08 10:37:33,159 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-11-08 10:37:33,160 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-11-08 10:37:33,199 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-11-08 10:37:33,285 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-11-08 10:37:33,326 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4158
+INFO 2019-11-08 10:37:33,473 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-11-08 10:37:33,473 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-11-08 10:37:33,474 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-11-08 10:37:33,539 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-11-08 10:37:33,768 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-11-08 10:37:33,771 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-11-08 10:37:33,775 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-11-08 10:37:34,002 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-11-08 10:37:44,552 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-08 10:37:44,606 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-08 10:37:44,638 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-11-08 10:37:44,643 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-11-08 10:37:44,650 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-08 10:37:44,651 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-11-08 10:37:51,695 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-08 10:37:51,729 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:37:51,730 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:37:51,730 basehttp 154 "GET /static/js/page.js HTTP/1.1" 404 1654
+WARNING 2019-11-08 10:37:51,738 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+WARNING 2019-11-08 10:37:51,745 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 404 1657
+WARNING 2019-11-08 10:37:51,751 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,058 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,058 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,064 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,073 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,077 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,085 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,398 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,407 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:52,408 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:37:52,411 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 404 1666
+INFO 2019-11-08 10:37:52,982 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-08 10:37:53,007 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:37:53,014 basehttp 154 "GET /static/js/page.js HTTP/1.1" 404 1654
+WARNING 2019-11-08 10:37:53,020 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+WARNING 2019-11-08 10:37:53,021 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:37:53,031 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 404 1657
+WARNING 2019-11-08 10:37:53,036 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,349 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,350 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,356 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,362 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,366 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,369 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 404 1666
+INFO 2019-11-08 10:37:53,683 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-08 10:37:53,695 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,695 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,704 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:53,711 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 404 1663
+ERROR 2019-11-08 10:37:53,776 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 500 59
+ERROR 2019-11-08 10:37:53,776 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 500 59
+ERROR 2019-11-08 10:37:53,776 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 500 59
+ERROR 2019-11-08 10:37:53,808 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 500 59
+WARNING 2019-11-08 10:37:53,828 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:37:53,832 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:37:54,010 basehttp 154 "GET /static/js/page.js HTTP/1.1" 404 1654
+WARNING 2019-11-08 10:37:54,010 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+WARNING 2019-11-08 10:37:54,019 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 404 1657
+WARNING 2019-11-08 10:37:54,334 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,338 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,340 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,340 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,356 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,358 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,645 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,663 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,667 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,667 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:37:54,715 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 404 1663
+INFO 2019-11-08 10:37:58,392 basehttp 154 "GET /xadmin/blog/article/ HTTP/1.1" 200 22212
+INFO 2019-11-08 10:37:58,430 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-11-08 10:37:58,447 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-08 10:37:58,502 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-11-08 10:37:58,578 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-11-08 10:37:58,578 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-11-08 10:37:58,618 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-11-08 10:37:58,631 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-11-08 10:38:00,215 basehttp 154 "GET /xadmin/blog/article/add/ HTTP/1.1" 200 18126
+INFO 2019-11-08 10:38:00,250 basehttp 154 "GET /static/ueditor/ueditor.config.js HTTP/1.1" 200 19826
+INFO 2019-11-08 10:38:00,282 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-08 10:38:00,419 basehttp 154 "GET /static/ueditor/ueditor.all.js HTTP/1.1" 200 1111191
+INFO 2019-11-08 10:38:00,456 basehttp 154 "GET /static/ueditor/ueditor.all.min.js HTTP/1.1" 200 367806
+INFO 2019-11-08 10:38:00,590 basehttp 154 "GET /static/ueditor/lang/zh-cn/zh-cn.js HTTP/1.1" 200 30020
+INFO 2019-11-08 10:38:00,611 basehttp 154 "GET /static/ueditor/themes/default/css/ueditor.css HTTP/1.1" 200 43760
+INFO 2019-11-08 10:38:00,632 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573180680628 HTTP/1.1" 200 2171
+INFO 2019-11-08 10:38:00,756 basehttp 154 "GET /static/ueditor/themes/default/images/scale.png HTTP/1.1" 200 167
+INFO 2019-11-08 10:38:00,756 basehttp 154 "GET /static/ueditor/themes/default/images/charts.png HTTP/1.1" 200 518
+INFO 2019-11-08 10:38:00,765 basehttp 154 "GET /static/ueditor/themes/iframe.css HTTP/1.1" 200 41
+INFO 2019-11-08 10:38:00,769 basehttp 154 "GET /static/ueditor/themes/default/images/icons.png HTTP/1.1" 200 19694
+INFO 2019-11-08 10:38:00,958 basehttp 154 "GET /static/ueditor/third-party/codemirror/codemirror.js HTTP/1.1" 200 158605
+INFO 2019-11-08 10:38:00,963 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.js HTTP/1.1" 200 43216
+INFO 2019-11-08 10:38:00,980 basehttp 154 "GET /static/ueditor/third-party/codemirror/codemirror.css HTTP/1.1" 200 2888
+INFO 2019-11-08 10:38:01,396 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573180680977 HTTP/1.1" 200 3933
+INFO 2019-11-08 10:38:36,576 basehttp 154 "GET /static/ueditor/themes/default/images/icons-all.gif HTTP/1.1" 200 3750
+INFO 2019-11-08 10:38:36,580 basehttp 154 "GET /static/ueditor/themes/default/images/dialog-title-bg.png HTTP/1.1" 200 938
+INFO 2019-11-08 10:38:36,594 basehttp 154 "GET /static/ueditor/dialogs/webapp/webapp.html HTTP/1.1" 200 2385
+INFO 2019-11-08 10:38:36,642 basehttp 154 "GET /static/ueditor/dialogs/internal.js HTTP/1.1" 200 2682
+INFO 2019-11-08 10:38:36,722 basehttp 154 "GET /static/ueditor/themes/default/dialogbase.css?cache=0.40821823045186045 HTTP/1.1" 200 1685
+INFO 2019-11-08 10:38:54,524 basehttp 154 "GET /xadmin/blog/comment/ HTTP/1.1" 200 22207
+INFO 2019-11-08 10:38:54,584 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-08 10:38:56,479 basehttp 154 "GET /xadmin/blog/comment/add/ HTTP/1.1" 200 17638
+INFO 2019-11-08 10:38:56,508 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-11-08 10:38:56,729 basehttp 154 "GET /ueditor/controller/?imageMaxSize=1204000&imagePathFormat=images%2F&filePathFormat=files%2F&action=config&&noCache=1573180736726 HTTP/1.1" 200 2171
+INFO 2019-11-08 10:38:57,284 basehttp 154 "GET /static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1573180736948 HTTP/1.1" 200 3933
+INFO 2019-11-08 10:39:10,122 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+INFO 2019-11-08 10:39:10,169 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2019-11-08 10:39:12,806 log 228 Internal Server Error: /xadmin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 154, in _get_response
+    response = response.render()
+  File "d:\python3.6.1\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "d:\python3.6.1\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 199, in render
+    c = self.get_render(context).flatten()
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 118, in get_render
+    actual_form.form_html = helper.render_layout(actual_form, node_context, template_pack=self.template_pack)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\helper.py", line 309, in render_layout
+    template_pack=template_pack
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 140, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 287, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\utils.py", line 147, in render_field
+    html = template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\workspase\blog_system_venv\lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py", line 156, in render
+    return str(field)
+  File "d:\python3.6.1\lib\site-packages\django\utils\html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "d:\python3.6.1\lib\site-packages\django\forms\boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "d:\python3.6.1\lib\site-packages\django\forms\boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2019-11-08 10:39:12,828 basehttp 154 "GET /xadmin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/xadmin/ HTTP/1.1" 500 701665
+INFO 2019-11-08 10:39:14,740 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12490
+ERROR 2019-11-08 10:41:39,420 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 1020, in find_library
+    return parser.libraries[name]
+KeyError: 'static_root'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspase\blog_system\blog\views.py", line 27, in index
+    return render(request, 'index.html', locals())
+  File "d:\python3.6.1\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "d:\python3.6.1\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "d:\python3.6.1\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "d:\python3.6.1\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 1077, in load
+    lib = find_library(parser, name)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 1024, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'static_root' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+staticfiles
+tz
+xadmin_tags
+ERROR 2019-11-08 10:41:39,430 basehttp 154 "GET / HTTP/1.1" 500 154162
+ERROR 2019-11-08 10:42:11,925 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 1020, in find_library
+    return parser.libraries[name]
+KeyError: 'STATIC_ROOT'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\python3.6.1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspase\blog_system\blog\views.py", line 27, in index
+    return render(request, 'index.html', locals())
+  File "d:\python3.6.1\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\python3.6.1\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "d:\python3.6.1\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "d:\python3.6.1\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "d:\python3.6.1\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "d:\python3.6.1\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "d:\python3.6.1\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 1077, in load
+    lib = find_library(parser, name)
+  File "d:\python3.6.1\lib\site-packages\django\template\defaulttags.py", line 1024, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'STATIC_ROOT' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+static
+staticfiles
+tz
+xadmin_tags
+ERROR 2019-11-08 10:42:11,936 basehttp 154 "GET / HTTP/1.1" 500 154162
+INFO 2019-11-08 10:44:25,467 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-08 10:44:25,487 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:44:25,840 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:44:25,857 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+WARNING 2019-11-08 10:44:25,865 basehttp 154 "GET /static/js/page.js HTTP/1.1" 404 1654
+WARNING 2019-11-08 10:44:25,921 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 404 1657
+WARNING 2019-11-08 10:44:25,946 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,206 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,232 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,248 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,286 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,327 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,328 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,640 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,727 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,732 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:44:26,805 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 404 1663
+INFO 2019-11-08 10:48:54,390 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-08 10:48:54,411 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:48:54,443 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:48:54,443 basehttp 154 "GET /static/js/page.js HTTP/1.1" 404 1654
+WARNING 2019-11-08 10:48:54,445 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+WARNING 2019-11-08 10:48:54,464 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 404 1657
+WARNING 2019-11-08 10:48:54,465 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:54,781 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:54,782 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:54,782 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:54,793 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:54,800 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:54,812 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:55,080 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:55,104 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:55,110 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:55,118 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 404 1663
+INFO 2019-11-08 10:48:58,442 basehttp 154 "GET / HTTP/1.1" 200 12971
+WARNING 2019-11-08 10:48:58,459 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:48:58,693 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:48:58,759 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+WARNING 2019-11-08 10:48:58,777 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 404 1657
+WARNING 2019-11-08 10:48:58,778 basehttp 154 "GET /static/js/page.js HTTP/1.1" 404 1654
+WARNING 2019-11-08 10:48:59,067 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,090 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,096 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,117 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,117 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,125 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,377 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,399 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,413 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,426 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 404 1666
+WARNING 2019-11-08 10:48:59,431 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:49:08,251 basehttp 154 "GET /static/css/index.css HTTP/1.1" 404 1663
+WARNING 2019-11-08 10:49:08,253 basehttp 154 "GET /static/css/base.css HTTP/1.1" 404 1660
+WARNING 2019-11-08 10:49:08,261 basehttp 154 "GET /static/css/m.css HTTP/1.1" 404 1651
+INFO 2019-11-08 10:55:05,517 basehttp 154 "GET / HTTP/1.1" 200 12971
+INFO 2019-11-08 10:55:05,572 basehttp 154 "GET /static/css/base.css HTTP/1.1" 200 2151
+INFO 2019-11-08 10:55:05,575 basehttp 154 "GET /static/css/index.css HTTP/1.1" 200 13848
+INFO 2019-11-08 10:55:05,581 basehttp 154 "GET /static/js/page.js HTTP/1.1" 200 2602
+INFO 2019-11-08 10:55:05,592 basehttp 154 "GET /static/css/m.css HTTP/1.1" 200 2582
+INFO 2019-11-08 10:55:05,659 basehttp 154 "GET /static/js/page2.js HTTP/1.1" 200 287
+INFO 2019-11-08 10:55:05,693 basehttp 154 "GET /static/images/b02.jpg HTTP/1.1" 200 19422
+INFO 2019-11-08 10:55:05,704 basehttp 154 "GET /static/images/t03.jpg HTTP/1.1" 200 68221
+INFO 2019-11-08 10:55:05,711 basehttp 154 "GET /static/images/b04.jpg HTTP/1.1" 200 17515
+INFO 2019-11-08 10:55:05,719 basehttp 154 "GET /static/images/b06.jpg HTTP/1.1" 200 11100
+INFO 2019-11-08 10:55:05,721 basehttp 154 "GET /static/images/t01.jpg HTTP/1.1" 200 82526
+INFO 2019-11-08 10:55:05,725 basehttp 154 "GET /static/images/b07.jpg HTTP/1.1" 200 7500
+INFO 2019-11-08 10:55:05,731 basehttp 154 "GET /static/images/t04.jpg HTTP/1.1" 200 174118
+INFO 2019-11-08 10:55:05,735 basehttp 154 "GET /static/images/b01.png HTTP/1.1" 200 35170
+INFO 2019-11-08 10:55:05,739 basehttp 154 "GET /static/images/b03.jpg HTTP/1.1" 200 36009
+INFO 2019-11-08 10:55:05,741 basehttp 154 "GET /static/images/wx.jpg HTTP/1.1" 200 7629
+INFO 2019-11-08 10:55:05,750 basehttp 154 "GET /static/images/b05.jpg HTTP/1.1" 200 21780
+INFO 2019-11-08 10:55:06,052 basehttp 154 "GET /static/images/newsbg02.png HTTP/1.1" 200 1418
+INFO 2019-11-08 10:55:06,052 basehttp 154 "GET /static/images/newsbg01.png HTTP/1.1" 200 1243
+INFO 2019-11-08 10:55:06,055 basehttp 154 "GET /static/images/newsbg04.png HTTP/1.1" 200 1298
+INFO 2019-11-08 10:55:06,065 basehttp 154 "GET /static/images/like.jpg HTTP/1.1" 200 1430
+WARNING 2019-11-08 10:55:16,354 log 228 Not Found: /about.html
+WARNING 2019-11-08 10:55:16,355 basehttp 154 "GET /about.html HTTP/1.1" 404 2327
+INFO 2019-11-08 10:55:38,626 basehttp 154 "GET / HTTP/1.1" 200 12971
+INFO 2019-11-08 12:00:57,844 basehttp 154 "GET / HTTP/1.1" 200 5100
+INFO 2019-11-08 12:02:21,347 basehttp 154 "GET / HTTP/1.1" 200 5100
+INFO 2019-11-08 12:02:26,486 basehttp 154 "GET / HTTP/1.1" 200 5100
+INFO 2019-11-08 12:04:12,888 basehttp 154 "GET / HTTP/1.1" 200 5100
+INFO 2019-11-08 12:04:16,778 basehttp 154 "GET / HTTP/1.1" 200 5100
+INFO 2019-11-08 12:04:53,598 basehttp 154 "GET / HTTP/1.1" 200 5100
+INFO 2019-11-08 12:06:21,019 basehttp 154 "GET / HTTP/1.1" 200 5100
+INFO 2019-11-08 12:06:48,227 basehttp 154 "GET / HTTP/1.1" 200 12982
